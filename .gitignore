@@ -7,3 +7,7 @@ node_modules
 coverage
 playwright-report
 dist
+
+# accidental npm bin folders in repo root
+eslint
+next
