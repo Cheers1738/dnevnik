@@ -3,7 +3,7 @@ const nextConfig = {
   experimental: {
     typedRoutes: true
   },
-  transpilePackages: [\"@dnevnik/shared\"]
+  transpilePackages: ["@dnevnik/shared"]
 };
 
 module.exports = nextConfig;
