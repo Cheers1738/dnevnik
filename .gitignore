@@ -1,0 +1,13 @@
+node_modules
+.next
+.dist
+.env
+.env.local
+.env.*.local
+coverage
+playwright-report
+dist
+
+# accidental npm bin folders in repo root
+eslint
+next
