@@ -1,0 +1,22 @@
+{
+  "name": "dnevnik",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace apps/api & npm run dev --workspace apps/web",
+    "lint": "npm run lint --workspaces",
+    "typecheck": "npm run typecheck --workspaces",
+    "test": "npm run test --workspaces",
+    "build": "npm run build --workspaces",
+    "verify": "./scripts/verify.sh",
+    "smoke": "./scripts/smoke.sh",
+    "e2e": "npm run test:e2e --workspace apps/web"
+  },
+  "devDependencies": {
+    "eslint": "8.57.0",
+    "typescript": "5.4.5"
+  }
+}
